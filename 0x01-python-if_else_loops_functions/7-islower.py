@@ -2,6 +2,6 @@
 def islower(c):
     for i in c:
         if ord(i) in range(97,123):
-            print("{} is lower".format(i))
+            print("True")
         else:
-            print("{} is upper".format(i))
+            print("False)
