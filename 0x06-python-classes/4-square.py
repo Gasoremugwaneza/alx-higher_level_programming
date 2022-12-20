@@ -9,7 +9,7 @@ class Square:
     """ updating a privare instance attribute """
     def __init__(self, size=0):
         """ instantiation of class square """
-        self.__size = size
+        self.size = size
     
     @property
     def size(self):
@@ -19,6 +19,11 @@ class Square:
     @size.setter
     def size(self, value):
         """ setter for size """
+        if not isinstance(value, int):
+            raise TypeError("value must be an integer")
+        if value < 0:
+            raise ValueError("value must be >= 0")
+
         self.__self = value
     
     def area(self):
