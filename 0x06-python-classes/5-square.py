@@ -1,4 +1,4 @@
-#!/usr/bin/pyhton3
+#!/usr/bin/python3
 # printing a square with # character
 """
     we are not allowed to import any module
