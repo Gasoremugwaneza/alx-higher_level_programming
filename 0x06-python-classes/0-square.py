@@ -1,4 +1,4 @@
-#!/sur/bin/python3
+#!/usr/bin/python3
 # writing an empty class
 """
     we are not allowed to import any module
